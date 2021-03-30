@@ -1,0 +1,92 @@
+2020-12-21 20:21:19 - Starting C:\Program Files\nodejs\node.exe  C:\Users\Administrator\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file C:\webserver\WebService\server\server.js --scriptoptions= --log "Notificaciones EuroPiel wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-12-21 20:21:19 - Started 13940
+2020-12-21 20:21:38 - Starting C:\Program Files\nodejs\node.exe  C:\Users\Administrator\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file C:\webserver\WebService\server\server.js --scriptoptions= --log "Notificaciones EuroPiel wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-12-21 20:21:38 - Started 9856
+2020-12-21 20:24:47 - Starting C:\Program Files\nodejs\node.exe  C:\Users\Administrator\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file C:\webserver\WebService\server\server.js --scriptoptions= --log "Notificaciones EuroPiel wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-12-21 20:24:47 - Started 3412
+2021-01-04 10:29:00 - Starting C:\Program Files\nodejs\node.exe  C:\Users\Administrator\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file C:\webserver\WebService\server\server.js --scriptoptions= --log "Notificaciones EuroPiel wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-01-04 10:29:00 - Started 15608
+2021-01-04 10:29:20 - Starting C:\Program Files\nodejs\node.exe  C:\Users\Administrator\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file C:\webserver\WebService\server\server.js --scriptoptions= --log "Notificaciones EuroPiel wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-01-04 10:29:20 - Started 10828
+2021-01-04 10:31:00 - Starting C:\Program Files\nodejs\node.exe  C:\Users\Administrator\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file C:\webserver\WebService\server\server.js --scriptoptions= --log "Notificaciones EuroPiel wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-01-04 10:31:00 - Started 6700
+2021-01-29 15:43:21 - Starting C:\Program Files\nodejs\node.exe  C:\Users\Administrator\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file C:\webserver\WebService\server\server.js --scriptoptions= --log "Notificaciones EuroPiel wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-01-29 15:43:21 - Started 6452
+2021-01-29 16:35:20 - Starting C:\Program Files\nodejs\node.exe  C:\Users\Administrator\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file C:\webserver\WebService\server\server.js --scriptoptions= --log "Notificaciones EuroPiel wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-01-29 16:35:20 - Started 6812
+2021-02-08 12:29:18 - Stopping notificacioneseuropiel.exe
+2021-02-08 12:29:18 - ProcessKill 6812
+2021-02-08 12:29:19 - Found child process: 6824 Name: conhost.exe
+2021-02-08 12:29:19 - Found child process: 16576 Name: node.exe
+2021-02-08 12:29:19 - Stopping process 6824
+2021-02-08 12:29:19 - Send SIGINT 6824
+2021-02-08 12:29:19 - SIGINT to 6824 failed - Killing as fallback
+2021-02-08 12:29:19 - Found child process: 8060 Name: node.exe
+2021-02-08 12:29:19 - Found child process: 18660 Name: conhost.exe
+2021-02-08 12:29:19 - Stopping process 18660
+2021-02-08 12:29:19 - Send SIGINT 18660
+2021-02-08 12:29:19 - SIGINT to 18660 failed - Killing as fallback
+2021-02-08 12:29:19 - Stopping process 8060
+2021-02-08 12:29:19 - Send SIGINT 8060
+2021-02-08 12:29:19 - SIGINT to 8060 failed - Killing as fallback
+2021-02-08 12:29:19 - Stopping process 16576
+2021-02-08 12:29:19 - Send SIGINT 16576
+2021-02-08 12:29:19 - SIGINT to 16576 failed - Killing as fallback
+2021-02-08 12:29:19 - Stopping process 6812
+2021-02-08 12:29:19 - Send SIGINT 6812
+2021-02-08 12:29:19 - SIGINT to 6812 failed - Killing as fallback
+2021-02-08 12:29:19 - Finished notificacioneseuropiel.exe
+2021-02-08 12:29:20 - Starting C:\Program Files\nodejs\node.exe  C:\Users\Administrator\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file C:\webserver\WebService\server\server.js --scriptoptions= --log "Notificaciones EuroPiel wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-02-08 12:29:20 - Started 16048
+2021-02-10 21:36:02 - Stopping notificacioneseuropiel.exe
+2021-02-10 21:36:02 - ProcessKill 16048
+2021-02-10 21:36:02 - Found child process: 864 Name: conhost.exe
+2021-02-10 21:36:02 - Found child process: 17160 Name: node.exe
+2021-02-10 21:36:02 - Stopping process 864
+2021-02-10 21:36:02 - Send SIGINT 864
+2021-02-10 21:36:02 - SIGINT to 864 failed - Killing as fallback
+2021-02-10 21:36:02 - Found child process: 13820 Name: node.exe
+2021-02-10 21:36:02 - Found child process: 10604 Name: conhost.exe
+2021-02-10 21:36:02 - Stopping process 10604
+2021-02-10 21:36:02 - Send SIGINT 10604
+2021-02-10 21:36:02 - SIGINT to 10604 failed - Killing as fallback
+2021-02-10 21:36:02 - Stopping process 13820
+2021-02-10 21:36:02 - Send SIGINT 13820
+2021-02-10 21:36:02 - SIGINT to 13820 failed - Killing as fallback
+2021-02-10 21:36:02 - Stopping process 17160
+2021-02-10 21:36:02 - Send SIGINT 17160
+2021-02-10 21:36:03 - SIGINT to 17160 failed - Killing as fallback
+2021-02-10 21:36:03 - Stopping process 16048
+2021-02-10 21:36:03 - Send SIGINT 16048
+2021-02-10 21:36:03 - SIGINT to 16048 failed - Killing as fallback
+2021-02-10 21:36:03 - Finished notificacioneseuropiel.exe
+2021-02-10 21:36:04 - Starting C:\Program Files\nodejs\node.exe  C:\Users\Administrator\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file C:\webserver\WebService\server\server.js --scriptoptions= --log "Notificaciones EuroPiel wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-02-10 21:36:04 - Started 10564
+2021-02-24 16:38:01 - Stopping notificacioneseuropiel.exe
+2021-02-24 16:38:01 - ProcessKill 10564
+2021-02-24 16:38:01 - Found child process: 8028 Name: conhost.exe
+2021-02-24 16:38:01 - Found child process: 9676 Name: node.exe
+2021-02-24 16:38:01 - Stopping process 8028
+2021-02-24 16:38:01 - Send SIGINT 8028
+2021-02-24 16:38:01 - SIGINT to 8028 failed - Killing as fallback
+2021-02-24 16:38:01 - Found child process: 9320 Name: node.exe
+2021-02-24 16:38:01 - Found child process: 7576 Name: conhost.exe
+2021-02-24 16:38:01 - Stopping process 7576
+2021-02-24 16:38:01 - Send SIGINT 7576
+2021-02-24 16:38:01 - SIGINT to 7576 failed - Killing as fallback
+2021-02-24 16:38:01 - Stopping process 9320
+2021-02-24 16:38:01 - Send SIGINT 9320
+2021-02-24 16:38:01 - SIGINT to 9320 failed - Killing as fallback
+2021-02-24 16:38:01 - Stopping process 9676
+2021-02-24 16:38:01 - Send SIGINT 9676
+2021-02-24 16:38:01 - SIGINT to 9676 failed - Killing as fallback
+2021-02-24 16:38:01 - Stopping process 10564
+2021-02-24 16:38:01 - Send SIGINT 10564
+2021-02-24 16:38:01 - SIGINT to 10564 failed - Killing as fallback
+2021-02-24 16:38:01 - Finished notificacioneseuropiel.exe
+2021-02-24 16:38:03 - Starting C:\Program Files\nodejs\node.exe  C:\Users\Administrator\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file C:\webserver\WebService\server\server.js --scriptoptions= --log "Notificaciones EuroPiel wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-02-24 16:38:03 - Started 12524
+2021-03-25 16:59:44 - Stopping notificacioneseuropiel.exe
+2021-03-25 16:59:44 - Finished notificacioneseuropiel.exe
+2021-03-25 16:59:46 - Starting C:\Program Files\nodejs\node.exe  C:\Users\Administrator\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file C:\webserver\WebService\server\server.js --scriptoptions= --log "Notificaciones EuroPiel wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-03-25 16:59:46 - Started 6572

@@ -1,0 +1,74 @@
+const http = require('http');
+const fs = require('fs')
+const path = require('path');
+const { APNS } = require("apns2");
+const { Notification } = require("apns2");
+const express = require('express');
+const port = process.env.PORT || 3001;
+const host = process.env.IP || '192.168.15.8';
+//const host = process.env.IP || '198.154.99.39';
+
+const publicPath = path.resolve(__dirname, '../public');
+const app = express();
+const dir = path.dirname(require.main.filename);
+const provider = fs.readFileSync(`${dir}/keys/AuthKey_VJT2DTY4W8.p8`);
+app.use(express.static(publicPath));
+app.use(express.json());
+
+app.post('/', function(request, response) {
+//    let device = request.body.deviceId;
+//    let environment = request.body.environment;
+//    let payload = JSON.parse(request.body.payload);
+		let device='511bde68586121f21702d6e50db0989454b791bdaadb567bb52a784621ec7811';
+		let environment='PROD';
+		let payload=request.body;
+
+
+    /* (device, environment, payload) {
+        
+    }*/
+
+
+    let respuesta = EnviarMensaje(device, environment, payload);
+    //console.log(respuesta.then);
+    if (respuesta.then) {
+        response.send({ estatus: "ok" });
+    } else {
+        response.send(respuesta);
+    }
+    //response.send(respuesta);
+
+    //response.send(respuesta); // echo the result back
+});
+
+async function EnviarMensaje(device, environment, payload) {
+    try {
+        let env = environment == "PROD" ? "api.push.apple.com" : "api.development.push.apple.com";
+
+        let client = new APNS({
+            team: "4LJRSRDSXG",
+            keyId: "VJT2DTY4W8",
+            signingKey: provider,
+            defaultTopic: "com.govirtek.EuropielMobile",
+            host: env
+        });
+
+		console.log(payload);
+
+        let n = new Notification(device, payload);
+        //let n = new SilentNotification(device, payload);
+
+        //console.log(device);
+        //console.log(env);
+        //console.log(payload);
+
+        //resolve("Exito");
+        return await client.send(n);
+        //return client.send(n);
+
+    } catch (ex) {
+        console.error(ex);
+    }
+}
+
+app.listen(3001);
